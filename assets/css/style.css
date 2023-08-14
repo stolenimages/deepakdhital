@@ -92,7 +92,7 @@ h6,
   font-size: 30px;
   margin: 0;
   line-height: 1;
-  font-weight: 400;
+  font-weight: 800;
   letter-spacing: 2px;
 }
 
@@ -101,6 +101,14 @@ h6,
   color: #7a6960;
   text-decoration: none;
 }
+
+/*changes the code*/
+#header .logo h1 span {
+  height: 50%;
+  color: #eb5d1e;
+  overflow: hidden;
+}
+
 
 #header .logo img {
   padding: 0;
@@ -386,12 +394,14 @@ h6,
   background: #eb5d1e;
 }
 
+
 #hero .btn-get-started:hover {
   /*background: #ef7f4d;*/
   /*background: #000000;
   background-position: left;*/
-background: linear-gradient(to left, black 34%, orange 65%) right;
-background-size: 300% 100%;
+  /* background: linear-gradient(to left, black 34%, orange 65%) right;
+  background-size: 300% 100%; */
+
 }
 
 #hero .animated {
